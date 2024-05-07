@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,6 +32,7 @@ main {
 aside {    
     width: 400px;
     border: 1px solid rgb(171, 188, 251);
+    position: relative;
 }
 aside img{
     width: 200px;
@@ -39,8 +40,8 @@ aside img{
 }
 aside h2{
     position: absolute;
-    top: 770px;
-    left: 90px;
+    top: 30px;
+    left: 60px;
 }
 footer {
     margin-top: 15px;
