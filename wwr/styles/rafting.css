@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary-color: #007c7c; /*007c7c-336633-d1d1d1-ffd700-c8c8d0*/
+    --secondary-color:#336633;
+    --accent1-color: #d1d1d1;
+    --accent2-color: #ffd700;
+    --heading-font: 'Rototo' sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;    
+    /*opcion 2: cbe1ed-1f7a38-bbbbbb-ff7f00-d56062*/
+    --nav-background-color:#cbe1ed;
+    --nav-link-color: #1f7a38;
+    --nav-hover-link-color: #bbbbbb;
+    --nav-hover-background-color: #d56062;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font); 
+    color: var(--primary-color)
+  }
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+p{
+    padding: 25px;
+  }
+.hero{
+    position: relative;
+}   
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1{
+    position: absolute;
+    top: 20px;
+    right: 400px ;
+}
+.hero article{
+    position: absolute;
+    bottom: 300px;
+    opacity: 0.87;
+}
+.hero article img{
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 200px;
+}
+.hero article p{
+    padding: 25px;
+    background-color: var(--accent1-color);
+}
+  
