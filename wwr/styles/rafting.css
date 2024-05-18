@@ -28,10 +28,62 @@ h1, h2, h3, h4, h5, h6 {
 header{
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+	border-bottom: 1px solid var(--secondary-color);
+	max-width: 1000px;
   }
+header img{
+    max-width: 1000px;
+}
+nav{
+    text-align: right;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+	list-style: none;
+}
+.navigation a{
+    padding: 10px;
+    background-color: var(--primary-color);
+    opacity: 0.40;
+    color: var(--accent2-color);
+    display: block;
+}
+.navigation a:hover {
+	color: var(--nav-background-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
 p{
     padding: 25px;
   }
+
+.history-section {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--accent1-color); 
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    align-items: center;
+    border: #007c7c;
+}
+.history-content img {
+    max-width: 100%;
+    height: auto;
+    border: #007c7c;
+}
+.history-text {
+    text-align: justify;
+    margin: 0 10px;
+}
 .hero{
     position: relative;
 }   
@@ -60,4 +112,49 @@ p{
     padding: 25px;
     background-color: var(--accent1-color);
 }
-  
+.adventures-section {
+    padding: 20px;
+    background-color: var(--accent1-color); 
+    text-align: center;
+}  
+.adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto); 
+    gap: 10px;
+    align-items: center;
+}
+figure {
+    margin: 0;
+    text-align: center;
+}
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+figcaption {
+    margin-top: 5px;
+    font-style: italic;
+    color: #555;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--accent1-color); 
+}
+footer p {
+    margin: 0;
+}
+.sociallinks {
+    display: flex;
+    gap: 10px; /* Espacio entre los iconos */
+}
+.sociallinks a {
+    display: inline-block;
+}
+.sociallinks img {
+    width: 30px; 
+    height: auto;
+}
