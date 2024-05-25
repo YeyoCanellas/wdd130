@@ -212,9 +212,10 @@ button:hover{
     align-items: flex-start;
     margin: 20px    ;
     margin-bottom: 50px;
+    gap: 20px;
 }
 .contact-info {
-    flex: 1;
+    flex: 2;
     margin-right: 20px;
 }
 .contact {
@@ -230,12 +231,14 @@ button:hover{
 .image-container {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .image-container img {
-    max-width: 100%;
+    width: 180px; /* Ajusta el tamaño de las imágenes */
     height: auto;
     border-radius: 10px;
 }
