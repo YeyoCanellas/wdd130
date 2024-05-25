@@ -147,6 +147,39 @@ footer {
 footer p {
     margin: 0;
 }
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+form {
+    width: 650px;
+    margin: 5px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--accent1-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;  
+}
+
+button:hover{
+    background-color: var(--nav-hover-background-color);
+}
+
 .sociallinks {
     display: flex;
     gap: 10px; /* Espacio entre los iconos */
@@ -157,4 +190,61 @@ footer p {
 .sociallinks img {
     width: 30px; 
     height: auto;
+}
+
+.contact {
+    padding: 5px;
+}
+
+.map {
+    border: 0;
+}
+
+.form-contact {
+    padding: 5px;
+    display: grid;
+    align-items: start;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px    ;
+    margin-bottom: 50px;
+}
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+}
+.contact {
+    margin: 10px 0;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.boton {
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
 }
