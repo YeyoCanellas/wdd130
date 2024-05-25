@@ -156,6 +156,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    align-items: center;
 }
 
 form {
@@ -241,9 +242,6 @@ button:hover{
     width: 180px; /* Ajusta el tamaño de las imágenes */
     height: auto;
     border-radius: 10px;
-}
-.boton {
-    align-items: center;
 }
 .button-container {
     display: flex;
